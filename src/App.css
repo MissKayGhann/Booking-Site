@@ -1,0 +1,149 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://db.onlinewebfonts.com/c/e71d1c4ccde9bca057cd4d7be7a7ba40?family=Themysion");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Reem+Kufi:wght@400..700&display=swap");
+* {
+  margin: 0;
+}
+
+/* Optional: Add responsiveness to navbar */
+@media screen and (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+  }
+
+  .nav-item {
+    text-align: left;
+  }
+}
+.about-me,
+.terms,
+.kay-glam {
+  margin: 16px;
+}
+
+nav img {
+  height: 70px;
+}
+
+.navlink:hover {
+  font-size: large;
+}
+
+.hero {
+  font-style: italic;
+}
+
+.artist {
+  font-size: 2rem;
+  font-weight: 200;
+  align-items: center;
+}
+
+.brush {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.artist,
+.brush {
+  text-align: center;
+}
+
+h3 {
+  font-family: "Themysion", sans-serif;
+  font-size: 100px;
+  margin-left: 20px;
+  font-weight: 100;
+  margin-bottom: -40px;
+  margin-top: 20px;
+}
+.page-title {
+  color: #3e251e;
+}
+
+.sub-title {
+  font-family: "Reem Kufi", sans-serif;
+  font-weight: 300;
+  margin-left: 10px;
+  font-style: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.tiny-text,
+li {
+  font-family: "Reem Kufi", sans-serif;
+  margin-bottom: 3px;
+  margin-left: 10px;
+  color: #3e251e;
+}
+
+.maids-discount {
+  margin-left: 20px;
+  font-family: "Reem Kufi", sans-serif;
+  color: #3e251e;
+}
+
+.bottom-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+.no-kids {
+  font-family: "Reem Kufi", sans-serif;
+  color: #3e251e;
+}
+
+.terms-cond {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Reem Kufi", sans-serif;
+  font-weight: 300;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Themysion", sans-serif;
+  color: #3e251e;
+}
+
+.fancy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
