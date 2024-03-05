@@ -1,4 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
+import background from "../images/background.png";
+
+const bookingStyle = {
+  paddingTop: "60px",
+  backgroundImage: `url(${background}`,
+};
 
 const BookingPage = () => {
   const schedulingApp = `
@@ -6,10 +12,10 @@ const BookingPage = () => {
     <script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>`;
 
   return (
-    <>
+    <div style={bookingStyle}>
       <h1>Booking Page</h1>
       <div dangerouslySetInnerHTML={{ __html: schedulingApp }} />
-    </>
+    </div>
   );
 };
 

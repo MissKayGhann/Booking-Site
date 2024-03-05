@@ -15,13 +15,21 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <HeroSection />
+              <AboutSection />
+            </>
+          }
+        />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/booking" element={<BookingPage />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/services" element={<Services />} />
       </Routes>
-      <HeroSection />
-      <AboutSection />
+
       <Footer />
     </Router>
   );

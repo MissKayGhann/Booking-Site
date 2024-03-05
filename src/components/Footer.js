@@ -5,10 +5,11 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   const footerStyle = {
-    backgroundColor: "#333",
+    backgroundColor: "#644f48",
     color: "white",
     padding: "20px",
     textAlign: "center",
+    marginBottom: "0",
   };
 
   const linkStyle = {
@@ -23,22 +24,31 @@ const Footer = () => {
 
   return (
     <footer style={footerStyle}>
-      <p>Ms Kay Glam © {new Date().getFullYear()}</p>
+      <p className="kay-glam">Ms Kay Glam © {new Date().getFullYear()}</p>
       <div>
-        <a href="/booking-policies" style={linkStyle}>
+        <a href="/terms" style={linkStyle}>
           Booking Policies
         </a>{" "}
         |
-        <a href="/privacy-policy" style={linkStyle}>
-          Privacy Policy
-        </a>
-        <a href="https://tiktok.com/yourusername" style={linkStyle}>
+        <a
+          target="_blank"
+          href="https://tiktok.com/@misskayglam"
+          style={linkStyle}
+        >
           <FontAwesomeIcon icon={faTiktok} style={iconStyle} />
         </a>
-        <a href="https://instagram.com/yourusername" style={linkStyle}>
+        <a
+          target="_blank"
+          href="https://instagram.com/mskayglam"
+          style={linkStyle}
+        >
           <FontAwesomeIcon icon={faInstagram} style={iconStyle} />
         </a>
-        <a href="mailto:your@email.com" style={linkStyle}>
+        <a
+          target="_blank"
+          href="mailto:misskayglam@outlook.com"
+          style={linkStyle}
+        >
           <FontAwesomeIcon icon={faEnvelope} style={iconStyle} />
         </a>
       </div>

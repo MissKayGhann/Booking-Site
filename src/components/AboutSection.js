@@ -1,5 +1,6 @@
 import React from "react";
 import kareen from "../images/kareen.jpg";
+import background from "../images/background.png";
 
 const AboutSection = () => {
   const aboutStyle = {
@@ -7,7 +8,7 @@ const AboutSection = () => {
     justifyContent: "space-between",
     alignItems: "center",
     padding: "50px",
-    backgroundColor: "#f8f8f8",
+    backgroundImage: `url(${background}`,
   };
 
   const textStyle = {
@@ -24,11 +25,14 @@ const AboutSection = () => {
   return (
     <div style={aboutStyle}>
       <div style={textStyle}>
-        <h2>The One Behind The Brush</h2>
-        <p>
+        <span>
+          <h2 className="artist">The Artist Behind </h2>
+        </span>
+        <h2 className="brush">The Brush</h2>
+        <p className="about-me">
           Hey! I'm Kareen! I'm a makeup artist based in East London . I
-          specialise mainly in beauty editorial, commercial and editorial
-          brides. If you're looking for more details about my services, feel
+          specialise special event makeup, shoot and bridal. I also offer 1-2-1
+          sessions. If you're looking for more details about my services, feel
           free to contact me!
         </p>
       </div>
