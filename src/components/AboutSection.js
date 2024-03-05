@@ -31,9 +31,9 @@ const AboutSection = () => {
         <h2 className="brush">The Brush</h2>
         <p className="about-me">
           Hey! I'm Kareen! I'm a makeup artist based in East London . I
-          specialise special event makeup, shoot and bridal. I also offer 1-2-1
-          sessions. If you're looking for more details about my services, feel
-          free to contact me!
+          specialise in special event makeup, shoot and bridal. I also offer
+          1-2-1 sessions. If you're looking for more details about my services,
+          feel free to contact me!
         </p>
       </div>
       <img style={imageStyle} src={kareen} alt="About Kareen" />
