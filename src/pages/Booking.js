@@ -14,7 +14,7 @@ const BookingPage = () => {
   return (
     <div style={bookingStyle}>
       <div className="welcome page-title">
-        <h3>About Me</h3>
+        <h3>Booking</h3>
       </div>
       <div dangerouslySetInnerHTML={{ __html: schedulingApp }} />
     </div>
