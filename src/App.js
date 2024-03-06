@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route
-          path="/"
+          path="https://misskayghann.github.io/"
           element={
             <>
               <HeroSection />
