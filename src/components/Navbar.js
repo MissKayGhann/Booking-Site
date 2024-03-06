@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navlink">
-      <Link to="/Booking-Site">
+      <Link to="/">
         <img src={mskayglam} />
       </Link>
       <div className="burger" onClick={() => setOpen(!open)}>
@@ -16,23 +16,15 @@ const Navbar = () => {
       <div className={`navlinks ${open ? "open" : ""}`}>
         <Link
           className="navlink"
-          to="Booking-Site/portfolio"
+          to="/portfolio"
           onClick={() => setOpen(false)}
         >
           Portfolio
         </Link>
-        <Link
-          className="navlink"
-          to="Booking-Site/services"
-          onClick={() => setOpen(false)}
-        >
+        <Link className="navlink" to="/services" onClick={() => setOpen(false)}>
           Services
         </Link>
-        <Link
-          className="navlink"
-          to="Booking-Site/terms"
-          onClick={() => setOpen(false)}
-        >
+        <Link className="navlink" to="/terms" onClick={() => setOpen(false)}>
           Terms
         </Link>
 
