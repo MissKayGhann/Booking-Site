@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTiktok, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const footerStyle = {
@@ -26,9 +27,9 @@ const Footer = () => {
     <footer style={footerStyle}>
       <p className="kay-glam">Ms Kay Glam © {new Date().getFullYear()}</p>
       <div>
-        <a href="http:/misskayglam.co.uk/terms" style={linkStyle}>
+        <Link to="/terms" style={linkStyle}>
           Booking Policies
-        </a>{" "}
+        </Link>{" "}
         |
         <a
           target="_blank"
