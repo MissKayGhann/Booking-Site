@@ -24,10 +24,10 @@ function App() {
             </>
           }
         />
-        <Route path="/portfolio" element={<PortfolioPage />} />
-        <Route path="/booking" element={<BookingPage />} />
-        <Route path="/terms" element={<TermsPage />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/Booking-Site/portfolio" element={<PortfolioPage />} />
+        <Route path="/Booking-Site/booking" element={<BookingPage />} />
+        <Route path="/Booking-Site/terms" element={<TermsPage />} />
+        <Route path="/Booking-Site/services" element={<Services />} />
       </Routes>
 
       <Footer />
