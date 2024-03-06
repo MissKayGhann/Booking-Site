@@ -26,7 +26,7 @@ const Footer = () => {
     <footer style={footerStyle}>
       <p className="kay-glam">Ms Kay Glam © {new Date().getFullYear()}</p>
       <div>
-        <a href="/terms" style={linkStyle}>
+        <a href="http:/misskayglam.co.uk/terms" style={linkStyle}>
           Booking Policies
         </a>{" "}
         |
