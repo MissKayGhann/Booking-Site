@@ -48,8 +48,9 @@ const TermsPage = () => {
         <h2 className="sub-title">UK / INTERNATIONAL TRAVEL</h2>
         <ul>
           <li>
-            I charge a travel fee for all home bookings depending on distance,
-            this will be discussed during the consultation.
+            I charge a travel fee for all home bookings, this is listed as an
+            add on, on the booking page. Travel from my base that exceeds a 2
+            hour drive will need to be discussed seperately.
           </li>
           <li>All other bookings are take place in Leyton, East London.</li>
           <li>
