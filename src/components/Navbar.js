@@ -30,7 +30,7 @@ const Navbar = () => {
 
         <Link
           className="navlink"
-          to="Booking-Site/booking"
+          to="/booking"
           style={{
             backgroundColor: "#ff7f50",
             padding: "10px 20px",

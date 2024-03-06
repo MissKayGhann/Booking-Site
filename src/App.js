@@ -24,7 +24,7 @@ function App() {
             </>
           }
         />
-        <Route path="king-Site/portfolio" element={<PortfolioPage />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/booking" element={<BookingPage />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/services" element={<Services />} />
