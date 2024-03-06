@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.e71d84a4.css",
-    "main.js": "/static/js/main.1ab1f110.js",
-    "static/js/453.9c8e1fa7.chunk.js": "/static/js/453.9c8e1fa7.chunk.js",
-    "static/media/bleO.png": "/static/media/bleO.3d636a18da527a63b34b.png",
-    "static/media/nayI.png": "/static/media/nayI.56223a385b7cf00330af.png",
-    "static/media/aprilB.png": "/static/media/aprilB.b2fbee8561fe72a1fcfe.png",
-    "static/media/kiki.png": "/static/media/kiki.dd200576ce69a445d649.png",
-    "static/media/client1.png": "/static/media/client1.22e17db072c8eb1c8652.png",
-    "static/media/aliciaC.png": "/static/media/aliciaC.02b3df067e437e8e6863.png",
-    "static/media/vicMG.png": "/static/media/vicMG.a6abf5ac6d37226ea997.png",
-    "static/media/background.png": "/static/media/background.17a5070385974b9d294a.png",
-    "static/media/kareen.jpg": "/static/media/kareen.701777e7202154231701.jpg",
-    "static/media/alicia.png": "/static/media/alicia.78aaeb3a4ab902b99835.png",
-    "static/media/mskayglam.png": "/static/media/mskayglam.a9b9a77ddb5600996b67.png",
-    "static/media/fancy.png": "/static/media/fancy.107091eaf9c6ab4ee37a.png",
-    "index.html": "/index.html",
-    "main.e71d84a4.css.map": "/static/css/main.e71d84a4.css.map",
-    "main.1ab1f110.js.map": "/static/js/main.1ab1f110.js.map",
-    "453.9c8e1fa7.chunk.js.map": "/static/js/453.9c8e1fa7.chunk.js.map"
+    "main.css": "/Booking-Site/static/css/main.e71d84a4.css",
+    "main.js": "/Booking-Site/static/js/main.12c3f948.js",
+    "static/js/453.9c8e1fa7.chunk.js": "/Booking-Site/static/js/453.9c8e1fa7.chunk.js",
+    "static/media/bleO.png": "/Booking-Site/static/media/bleO.3d636a18da527a63b34b.png",
+    "static/media/nayI.png": "/Booking-Site/static/media/nayI.56223a385b7cf00330af.png",
+    "static/media/aprilB.png": "/Booking-Site/static/media/aprilB.b2fbee8561fe72a1fcfe.png",
+    "static/media/kiki.png": "/Booking-Site/static/media/kiki.dd200576ce69a445d649.png",
+    "static/media/client1.png": "/Booking-Site/static/media/client1.22e17db072c8eb1c8652.png",
+    "static/media/aliciaC.png": "/Booking-Site/static/media/aliciaC.02b3df067e437e8e6863.png",
+    "static/media/vicMG.png": "/Booking-Site/static/media/vicMG.a6abf5ac6d37226ea997.png",
+    "static/media/background.png": "/Booking-Site/static/media/background.17a5070385974b9d294a.png",
+    "static/media/kareen.jpg": "/Booking-Site/static/media/kareen.701777e7202154231701.jpg",
+    "static/media/alicia.png": "/Booking-Site/static/media/alicia.78aaeb3a4ab902b99835.png",
+    "static/media/mskayglam.png": "/Booking-Site/static/media/mskayglam.a9b9a77ddb5600996b67.png",
+    "static/media/fancy.png": "/Booking-Site/static/media/fancy.107091eaf9c6ab4ee37a.png",
+    "index.html": "/Booking-Site/index.html",
+    "main.e71d84a4.css.map": "/Booking-Site/static/css/main.e71d84a4.css.map",
+    "main.12c3f948.js.map": "/Booking-Site/static/js/main.12c3f948.js.map",
+    "453.9c8e1fa7.chunk.js.map": "/Booking-Site/static/js/453.9c8e1fa7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e71d84a4.css",
-    "static/js/main.1ab1f110.js"
+    "static/js/main.12c3f948.js"
   ]
 }
