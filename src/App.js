@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import AboutPage from "./pages/AboutMe";
+import PortfolioPage from "./pages/Portfolio";
 import BookingPage from "./pages/Booking";
 import TermsPage from "./pages/TermsCon";
 import Services from "./pages/Services";
@@ -24,7 +24,7 @@ function App() {
             </>
           }
         />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/booking" element={<BookingPage />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/services" element={<Services />} />

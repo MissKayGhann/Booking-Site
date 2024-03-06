@@ -7,7 +7,7 @@ const AboutSection = () => {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: "50px",
+    padding: "3%",
     backgroundImage: `url(${background}`,
   };
 
@@ -18,8 +18,9 @@ const AboutSection = () => {
   };
 
   const imageStyle = {
-    width: "50%",
+    width: "40%",
     height: "auto",
+    marginRight: "5%",
   };
 
   return (
