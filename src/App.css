@@ -187,6 +187,21 @@ li {
   .image-container {
     max-height: 90%;
   }
+
+  .terms-cond {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: 55px;
+    margin-bottom: -20px;
+  }
+
+  .fancy img {
+    width: 100%;
+  }
 }
 
 /* mosaic */
