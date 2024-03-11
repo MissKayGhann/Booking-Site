@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://db.onlinewebfonts.com/c/e71d1c4ccde9bca057cd4d7be7a7ba40?family=Themysion");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Reem+Kufi:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Reem+Kufi:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reem+Kufi:wght@400..700&display=swap");
 
 * {
   margin: 0;
@@ -51,12 +53,23 @@ h3 {
 }
 
 .sub-title {
-  font-family: "Reem Kufi", sans-serif;
-  font-weight: 300;
+  font-family: "Themysion", sans-serif;
+  font-size: 4rem;
+  font-weight: 100;
   margin-left: 10px;
   font-style: bold;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: -20px;
+}
+
+.more-sub-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.tiny-text {
+  color: #644f48;
 }
 
 .tiny-text,
@@ -228,4 +241,11 @@ li {
 .image-container img {
   grid-column: span 4;
   grid-row: span 2;
+}
+
+.packages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
