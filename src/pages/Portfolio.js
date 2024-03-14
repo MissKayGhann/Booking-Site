@@ -6,8 +6,9 @@ import bleO from "../images/bleO.png";
 import clientOne from "../images/client1.png";
 import kiKi from "../images/kiki.png";
 import nayI from "../images/nayI.png";
-// import vicG from "../images/vicG";
+import clientTwo from "../images/client2.png";
 import vicMG from "../images/vicMG.png";
+import TenC from "../images/TenC.png";
 
 const PortfolioPage = () => {
   const aboutStyle = {
@@ -31,8 +32,9 @@ const PortfolioPage = () => {
     { id: 4, src: clientOne, title: "Image 4" },
     { id: 5, src: kiKi, title: "Image 5" },
     { id: 6, src: nayI, title: "Image 6" },
-    // { id: 7, src: vicG, title: "Image 7" },
+    { id: 7, src: TenC, title: "Image 7" },
     { id: 8, src: vicMG, title: "Image 8" },
+    { id: 8, src: clientTwo, title: "Image 9" },
   ];
 
   return (

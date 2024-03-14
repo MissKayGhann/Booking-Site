@@ -156,6 +156,19 @@ li {
   display: none;
 }
 
+.service-button {
+  background: none;
+  border: none;
+  display: flex;
+  font-size: 4rem;
+  cursor: pointer;
+  font-family: "Themysion", sans-serif;
+  margin-left: 1rem;
+  font-weight: 100;
+  margin-bottom: -2rem;
+  margin-top: 1.5rem;
+}
+
 @media (max-width: 768px) {
   .burger {
     display: block;
@@ -215,6 +228,28 @@ li {
   .fancy img {
     width: 100%;
   }
+
+  section {
+    font-size: 0.7rem;
+  }
+
+  .packages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service-button {
+    font-size: 3.4rem;
+    margin-left: 0.5rem;
+  }
+
+  .packages .maids-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 /* mosaic */
@@ -227,10 +262,6 @@ li {
   margin-bottom: 1%;
   overflow-y: auto;
 }
-
-/* .image-container div {
-  flex: 1 1 150px;
-} */
 
 .image-container img {
   width: 100%;

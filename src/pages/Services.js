@@ -24,19 +24,9 @@ const Services = () => {
 
   const renderSectionTitle = (title, isVisible) => (
     <button
+      className="service-button"
       style={{
-        background: "none",
-        border: "none",
-        display: "flex",
-        alignItems: "center",
-        fontSize: "4rem",
-        cursor: "pointer",
         color: isVisible ? "#3e251e" : "inherit",
-        fontFamily: '"Themysion", sans-serif',
-        marginLeft: "1rem",
-        fontWeight: "100",
-        marginBottom: "-2rem",
-        marginTop: "1.5rem",
       }}
     >
       {title}
@@ -69,14 +59,14 @@ const Services = () => {
         {renderSectionTitle(
           "Bridesmaids / Additional Persons",
           isBridesmaidsVisible
-        )}
+        )}{" "}
         {isBridesmaidsVisible && (
-          <div className="packages">
+          <div className="packages maids-info">
             <p className="maids-info">
               In my professional opinion, if you have a bridal party of more
               than 5, it is best to book more than one artist.{" "}
             </p>
-            <p className="maids-infot">
+            <p className="maids-info">
               If you would like for me to make recommendations, please let me
               know know.
             </p>
