@@ -62,6 +62,10 @@ h3 {
   margin-bottom: -20px;
 }
 
+.sub-title:last-child {
+  margin-bottom: 0;
+}
+
 .more-sub-title {
   font-family: "Playfair Display", serif;
   font-weight: 400;
@@ -169,6 +173,10 @@ li {
   margin-top: 1.5rem;
 }
 
+.service-button:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 768px) {
   .burger {
     display: block;
@@ -241,7 +249,7 @@ li {
   }
 
   .service-button {
-    font-size: 3.4rem;
+    font-size: 2.9rem;
     margin-left: 0.5rem;
   }
 
@@ -250,8 +258,18 @@ li {
     flex-direction: column;
     justify-content: center;
   }
+
+  .sub-title {
+    font-size: 3.3rem;
+  }
 }
 
+@media (max-width: 369px) {
+  .service-button {
+    font-size: 1.98rem;
+    margin-left: 0.1rem;
+  }
+}
 /* mosaic */
 
 .image-container {
